@@ -7,3 +7,12 @@ CREATE TABLE author (
     amount int,
     publish_date date
 );
+
+DROP TABLE IF EXISTS book;
+CREATE TABLE book (
+    id int PRIMARY KEY,
+    name varchar,
+    price int,
+    publish_date date,
+    author_id int
+);

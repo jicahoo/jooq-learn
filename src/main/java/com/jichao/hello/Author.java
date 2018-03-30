@@ -2,8 +2,8 @@ package com.jichao.hello;
 
 import java.util.Date;
 
-public class Library {
-    public Library(Integer id, String last_name, String first_name, Integer price, Integer ammount, Date publish_date) {
+public class Author {
+    public Author(Integer id, String last_name, String first_name, Integer price, Integer ammount, Date publish_date) {
         this.id = id;
         this.last_name = last_name;
         this.first_name = first_name;
